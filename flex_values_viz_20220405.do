@@ -315,12 +315,16 @@ name(timing, replace) ///
 fxsize(98) ///
 legend(order (1 "HIV-Related" 2 "Family" 3 "Economic") col(3))
 
-export excel using "./paper_flexibility_men/data_tlt/data_men_viz_20220421", firstrow(variables)
 
+*combine the two panels of the figure into 1
 grc1leg ifs_segments timing, col(2) scheme(s1mono) name(twosegments, replace) legendfrom(timing) 
 graph export "/Users/JennyTrinitapoli/Desktop/flex_2segments_2009.pdf", as(pdf) replace
 
 *ONE NON-REPLICABLE CLEAN_UP STEP IN ADOBE: last step conducted in adobe: center labels to sit midway between the 2 panels
+
+*for data-sharing's-sake: export a "table" of the data to post alongside the figure
+export excel using "./paper_flexibility_men/data_tlt/data_men_flex_viz_20220421", firstrow(variables)
+
 
 
 /*/ ColorBrewer RdBu-8 reversed
