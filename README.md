@@ -1,7 +1,7 @@
 # men_flex_viz
 # Visualizing Young Men's Fertility Desires: A View from Balaka, Malawi
 
-These files include the code for generating a pair of stylized stacked bar graphs featured in my [*Socius* paper](ADD LINK WHEN IT APPEARS) with Abdallah Chilungo, Huimeng Zhao, jimi adams, & Sara Yeatman.
+These files include the code for generating a pair of stylized stacked bar graphs featured in my [*Socius* paper](article DOI: 10.1177/23780231221094752) with Abdallah Chilungo, Huimeng Zhao, jimi adams, & Sara Yeatman.
 
 TLT data are publicly available to researchers through Data Sharing for Demographic Research: https://www.icpsr.umich.edu/web/DSDR/series/767
 
